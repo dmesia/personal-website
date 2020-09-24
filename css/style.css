@@ -7,7 +7,10 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+}
+
+.brand-logo {
+    font-family: 'Pacifico', cursive;
 }
 
 .outline{
@@ -15,7 +18,10 @@ body {
 }
 
 header{
-    height: 200px;
+    height: 250px;
+    background-image: url('../imgs/banner.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 main {
